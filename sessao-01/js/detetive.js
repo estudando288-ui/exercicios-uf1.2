@@ -5,19 +5,28 @@
 // ==========================================================================
 
 const nomeLoja = "Mercearia da Tia Lena";
-let nome produto = "Arroz";
 let precoQuilo = 150;
-let 2quilos = precoQuilo * 2;
+//let nome produto = "Arroz";
+let nomeProduto = "Arroz";
 
-console.log(`${nomeLoja}: ${nomeProduto} a ${PrecoQuilo} escudos o quilo.`);
+//let 2quilos = precoQuilo * 2;
+let quilos2 = precoQuilo * 2;
+
+
+console.log(`${nomeLoja}: ${nomeProduto} a ${precoQuilo} escudos o quilo.`);
 
 const stock = 40;
-stock = stock - 5;
+//stock = stock - 5;
+
 console.log(`Ficaram ${stock} sacos de arroz.`);
 
-let quantidade = "3";
-let total = precoQuilo + quantidade;
+//let quantidade = "3";
+let quantidade = 3;
+
+//let total = precoQuilo + quantidade;
+let total = precoQuilo * quantidade;
 console.log(`3 quilos custam ${total} escudos.`);
 
-let emPromocao = "false";
+//let emPromocao = "false";
+let emPromocao = false;
 console.log(typeof emPromocao);
